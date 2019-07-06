@@ -11,7 +11,11 @@ then
 	echo "List of processes based on the memory Usage"
 	ps -e -orss=,args= | sort -b -k1,1n # sorted bases rss value
 
+<<<<<<< HEAD
 #  If arguements are given (mem/cpu)
+=======
+# If arguements are given (mem/cpu)
+>>>>>>> logged in users and memory
 else
 	case "$1" in
 	mem)
