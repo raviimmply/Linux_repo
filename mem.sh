@@ -12,4 +12,4 @@ echo "Swap memory Details"
 free -t -m | grep "Swap" | awk '{ print "Total Swap space : "$2 " MB";
 print "Used Swap Space : "$3" MB";
 print "Free Swap : "$4" MB";
-}'
+ }'
